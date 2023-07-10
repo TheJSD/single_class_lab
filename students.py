@@ -1,6 +1,12 @@
 class Student:
 
-    def __init__(self, name, cohort, favourite_language):
+    def __init__(self, name, cohort):
         self.name = name
         self.cohort = cohort
-        self.favourite_langauge = favourite_language
+
+    def talk(self):
+        print(self.name + ": I can talk!")
+
+    def say_favourite_language(self, favourite_language):
+        print(self.name + ": I love " + favourite_language + "!")
+
