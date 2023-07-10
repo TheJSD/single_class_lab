@@ -13,3 +13,5 @@ class Team:
         for team_player in self.players:
             if player == team_player:
                 return True
+        else:
+            return False
