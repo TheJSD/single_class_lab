@@ -3,7 +3,7 @@ class Team:
     def __init__(self, name, players, coach):
         self.name = name # Team Name
         self.players = []
-        self.players.append(players)
+        self.players.extend(players)
         self.coach = coach
 
     def add_player(self, player):
