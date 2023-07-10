@@ -16,3 +16,5 @@ print(team1.players)
 print(team1.has_player("Paul"))
 print(team1.has_player("Papa Smurf"))
 
+team1.play_game(True)
+print(team1.points)
